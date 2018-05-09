@@ -1,0 +1,25 @@
+/* Carousel */
+.carousel-inner {
+    height: 600px;
+}
+.carousel-inner img {
+    width: 100%;
+}
+
+#pic1, #pic2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#pic1 {
+    background-image: url(../pictures/wired);
+}
+
+#pic2 {
+    background-image: url(../pictures/handshake);
+}
+.navbar-right {
+    margin-right: 10px;
+}
