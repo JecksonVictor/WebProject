@@ -20,6 +20,11 @@
 #pic2 {
     background-image: url(../pictures/handshake);
 }
+
 .navbar-right {
     margin-right: 10px;
+}
+
+.navbar-transparent {
+    background: rgba(0,0,0,0.60);
 }
