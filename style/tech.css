@@ -1,30 +1,68 @@
-/* Carousel */
+/*************************** Fonts ***************************/
+@font-face{
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/gotham/Gotham-Bold.otf);
+}
+@font-face{
+    font-family: 'Gotham-Thin';
+    src: url(../fonts/gotham/Gotham-Light.otf);
+}
+
+/*************************** Fonts ***************************/
+
+/*************************** Navbar ***************************/
+
+.navbar-right {
+    margin-right: 10px;
+}
+.navbar-transparent {
+    background: rgba(0,0,0,0.80);
+}
+/*************************** Navbar ***************************/
+
+/*************************** Carousel ***************************/
 .carousel-inner {
     height: 600px;
 }
 .carousel-inner img {
     width: 100%;
 }
+    #pic1, #pic2 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #pic1 {
+        background-image: url(../pictures/wired);
+    }
+    #pic2 {
+        background-image: url(../pictures/handshake);
+    }
 
-#pic1, #pic2 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-}
+        .carousel-text {
+            background: rgba(23, 23, 23, 0.8);
+            padding: 15px;
+            position: absolute;
+            left: 15%;
+            bottom: 15%;
+        }
+        .carousel-text h2, h4{
+            color: whitesmoke;
+        }
+        .carousel-text h2{
+            font-family: 'Gotham-Bold';
+            margin: 0%;
+        }
+        .carousel-text h4{
+            font-family: 'Gotham-Thin';
+        }
+/*************************** Carousel ***************************/
 
-#pic1 {
-    background-image: url(../pictures/wired);
-}
 
-#pic2 {
-    background-image: url(../pictures/handshake);
+/*************************** Footer ***************************/
+.footer {
+    height: 200px;
+    border-top: 1px solid black;
 }
-
-.navbar-right {
-    margin-right: 10px;
-}
-
-.navbar-transparent {
-    background: rgba(0,0,0,0.60);
-}
+/*************************** Footer ***************************/
